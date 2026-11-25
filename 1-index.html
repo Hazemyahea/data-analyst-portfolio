@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hazem Yahea — Data Analyst Portfolio</title>
+<style>
+  :root {
+    --ink: #16323a;
+    --teal: #0f766e;
+    --muted: #5b6b70;
+    --line: #e3e9ea;
+    --bg: #fbfdfc;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.6;
+  }
+  .card {
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 0 24px 64px;
+  }
+  header .fact {
+    color: var(--teal);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 13px;
+  }
+  header h1 { font-size: 40px; margin: 8px 0 12px; }
+  header p.intro { font-size: 18px; color: var(--muted); }
+  figure { margin: 32px 0 8px; }
+  figure img { width: 100%; border-radius: 12px; border: 1px solid var(--line); display: block; }
+  figcaption { font-size: 13px; color: var(--muted); margin-top: 6px; }
+  section { margin-top: 40px; }
+  section h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--teal);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .row { padding: 12px 0; border-bottom: 1px solid var(--line); }
+  .row:last-child { border-bottom: none; }
+  .row .name { font-weight: 600; }
+  .row .num { color: var(--teal); font-weight: 600; margin-right: 10px; }
+  .row .detail { color: var(--muted); font-size: 15px; }
+  .callout {
+    background: #eef7f5;
+    border-left: 3px solid var(--teal);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-top: 16px;
+    font-size: 15px;
+  }
+  .callout strong { display: block; margin-bottom: 2px; }
+  a { color: var(--teal); }
+  footer { margin-top: 48px; font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="card">
+  <header>
+    <div class="fact">Data analysis</div>
+    <h1>Hazem Yahea</h1>
+    <p class="intro">I'm Hazem. I build dashboards, measures and queries that turn raw data into clear answers, and I'm focusing my career on data analysis.</p>
+  </header>
+
+  <figure>
+    <img src="hero.png" alt="Abstract illustration of bar charts, a line curve and scattered data points in teal and dark ink">
+    <figcaption>Decorative illustration.</figcaption>
+  </figure>
+
+  <section>
+    <h2>About</h2>
+    <p>I graduated from Cairo University, Faculty of Arts, Sociology Department, and moved into tech through years of programming projects. That mix is why I like data analysis: it asks questions about people and answers them with evidence.</p>
+    <p style="margin-top:12px">Right now I'm going deeper on the Microsoft analytics stack: a DAX and Power Pivot course, and regular writing about data analysis on LinkedIn.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="row"><div class="name">Power BI</div><div class="detail">Dashboards and reports built on clean semantic models.</div></div>
+    <div class="row"><div class="name">DAX and Power Pivot</div><div class="detail">Measures and data modeling. Finishing a dedicated course now.</div></div>
+    <div class="row"><div class="name">SQL Server</div><div class="detail">Querying and shaping data at the source.</div></div>
+    <div class="row"><div class="name">R</div><div class="detail">Statistical analysis and database coursework.</div></div>
+    <div class="row"><div class="name">Programming background</div><div class="detail">JavaScript, C#, C++ and React from years of software projects.</div></div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="row">
+      <div class="name"><span class="num">1</span>Netflix churn dashboard</div>
+      <div class="detail">A customer churn analysis dashboard for Netflix data, built with JavaScript.</div>
+    </div>
+    <p style="margin-top:12px"><a href="https://github.com/Hazemyahea/netflix-churn-dashboard">View the Netflix churn dashboard on GitHub</a></p>
+    <div class="callout"><strong>More coming</strong>New analysis projects land here as the DAX and Power Pivot course wraps up.</div>
+  </section>
+
+  <section>
+    <h2>Find me</h2>
+    <p><a href="https://github.com/Hazemyahea">github.com/Hazemyahea</a></p>
+    <p><a href="https://www.linkedin.com/in/hazemyahea">linkedin.com/in/hazemyahea</a></p>
+  </section>
+
+  <footer>Projects and links checked 25 Nov 2026.</footer>
+</div>
+</body>
+</html>
